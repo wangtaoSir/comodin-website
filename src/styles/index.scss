@@ -1,0 +1,89 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+// @import './font-family.scss';
+@import 'font/CenturyGothic.css';
+// @import 'font/Roboto-Light.css';
+@import 'font/Roboto-Thin.css';
+// @import './sidebar.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div:focus{
+  outline: none;
+}
+
+//消除button的默认样式
+button{
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;  //自定义边框
+  outline: none;    //消除默认点击蓝色边框效果
+}
+
+ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+
+.main-container {
+  min-height: 100%;
+  transition: margin-left 0.28s;
+  // margin-left: 180px;
+  // margin-top: 50px;
+}
+
+.app-main{
+  min-height: 100%;
+  // max-width: 1200px;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+//SVG根据父级改变颜色
+path { fill: inherit !important }

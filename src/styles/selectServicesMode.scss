@@ -1,0 +1,116 @@
+.serv-zvc{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+}
+.serv-sidebar{
+    width: 29%;
+    background-color: rgb(247, 248, 252);
+    padding-top: 35px;
+    height: 100vh;
+    order: 1;
+}
+.serv-main{
+    width: 71%;
+    padding-top: 36px;
+    overflow: scroll;
+    .BoxContentWrapp{
+      width: 810px;
+      max-width: 90%;
+      position: relative;
+      margin: 0px auto;
+    }
+    .screenHeader{
+      text-align: center;
+      color: rgb(10, 31, 68);
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 32px;
+      letter-spacing: 0.38px;
+      margin-bottom: 60px;
+      margin-top: 0px;
+    }
+    .cu_question{
+      margin-bottom: 20px;
+      padding: 10px 0px;
+    }
+    .cu_question_title{
+      color: rgb(10, 31, 68);
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-top: 0px;
+      margin-bottom: 22px;
+    }
+}
+.ow-radio-answer{
+  cursor: pointer;
+  input[type="radio"]{
+    display: none;
+  }
+  .bWhIIG {
+    color: rgb(83, 98, 124);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    box-shadow: rgba(10, 31, 68, 0.08) 0px 1px 1px, rgba(10, 31, 68, 0.08) 0px 0px 1px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 40px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+  input[type="radio"]:checked ~ label {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 141, 255);
+    border-image: initial;
+  }
+  input[type="radio"]:checked ~ label::before {
+    background-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 141, 255);
+    border-image: initial;
+  }
+  .bWhIIG::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -9px;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(201, 206, 214);
+    border-image: initial;
+  }
+  *, :after, :before {
+    box-sizing: border-box;
+  }
+}
+.ow-col-box{
+    margin-bottom: 15px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

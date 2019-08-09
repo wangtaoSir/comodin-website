@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./font/Roboto-Light.woff2") format("woff2"),
+       url("./font/Roboto-Light.woff") format("woff"),
+       url("./font/Roboto-Light.ttf") format("truetype"),
+       url("./font/Roboto-Light.eot") format("embedded-opentype"),
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("./font/Roboto-Thin.woff2") format("woff2"),
+       url("./font/Roboto-Thin.woff") format("woff"),
+       url("./font/Roboto-Thin.ttf") format("truetype"),
+       url("./font/Roboto-Thin.eot") format("embedded-opentype"),
+}
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./font/CenturyGothic.ttf") format("ttf")
+}

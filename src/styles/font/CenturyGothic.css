@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("CenturyGothic.woff2") format("woff2"),
+       url("CenturyGothic.woff") format("woff"),
+       url("CenturyGothic.ttf") format("truetype"),
+       url("CenturyGothic.eot") format("embedded-opentype"),
+       url("CenturyGothic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
